@@ -1,7 +1,30 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+```
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
 .DS_Store
-/build
-/captures
+Thumbs.db
+
+# PHP specific
+*.php~
+*.php.bak
+*.phar
+
+# Build artifacts
+build/
+dist/
+```
