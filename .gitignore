@@ -27,6 +27,19 @@ vendor/
 node_modules/
 
 # IDE specific
+```
+# Compressed archives
+*.tar.gz
+
+# Environment and config files
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
@@ -44,4 +57,7 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
+*.tmp
+
+# Dependencies and build artifacts would typically go here, but none detected in changes
 ```
