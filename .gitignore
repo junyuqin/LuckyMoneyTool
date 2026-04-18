@@ -1,30 +1,47 @@
-```
-# Dependencies
-vendor/
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
+```php
+# Environment variables
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build outputs
+dist/
+build/
+*.css.php  # Generated CSS files
+
+# Dependencies
+vendor/
+node_modules/
+
+# IDE specific
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated files
+# OS generated
 .DS_Store
 Thumbs.db
 
-# PHP specific
-*.php~
-*.php.bak
-*.phar
+# Database
+*.sql.bak
+*.db-journal
 
-# Build artifacts
-build/
-dist/
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 ```
